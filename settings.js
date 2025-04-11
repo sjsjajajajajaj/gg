@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 
-SESSION_ID: process.env.SESSION_ID || "LAKA-MD=ExhVRDCR#LwOO4dWfDH_eZZfVZqNX3ToTizMEYVyfdtux6XWqe6w",
+SESSION_ID: process.env.SESSION_ID || "LAKA-MD=0oBChDbI#mldYEAdFmpVXD1WBrk0AaTxN6qF8iOElbtwAGqEtndw",
 PREFIX: process.env.PREFIX || '.' ,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgresql://postgres:lakamd@db.ndduyrkebubwlbwiljee.supabase.co:5432/postgres' : process.env.POSTGRESQL_URL
 };
